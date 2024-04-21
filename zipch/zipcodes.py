@@ -101,7 +101,7 @@ class ZipcodesDatabase:
                      postal.
     """
 
-    DOWNLOAD_URL = "http://data.geo.admin.ch/ch.swisstopo-vd.ortschaftenverzeichnis_plz/PLZO_CSV_LV95.zip"  # NOQA
+    DOWNLOAD_URL = "https://github.com/sandrogort/zipch/blob/master/zipch/PLZO_CSV_LV95.zip"  # NOQA
 
     def __init__(self, file_path):
         """
